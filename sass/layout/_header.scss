@@ -1,0 +1,143 @@
+.header {
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+.header__navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    margin-right: 93px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    color: #000;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.header__logo-web {
+    position: relative;
+
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.header__navigation-list {
+    display: flex;
+    align-items: center;
+}
+.header__navigation-item {
+    position: relative;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+
+        &.current::after {
+                content: "";
+                display: block;
+                box-sizing: inherit;
+                position: absolute;
+                bottom: -8px;
+                width: 100%;
+                height: 4px;
+                border-radius: 2px;
+                background-color: #2196F3;
+            }
+}
+
+.header__navigation-link {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: block;
+    position: relative;
+
+    color: #212121;
+
+        &:hover,
+        &:focus {
+            color: #2196F3;
+        }
+    
+}
+
+.header__navigation-item + .header__navigation-item {
+    margin-left: 50px;
+}
+
+.header__contacts {
+    margin-left: auto;
+}
+
+.header__contacts-list {
+    display: flex;
+    align-content: center;
+}
+
+.header__email {
+    margin-right: 30px;
+
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+
+    &:hover,
+    &:focus {
+        color: #2196F3;
+    }
+}
+
+.header__email-icon {
+    margin-right: 10px;
+
+    fill: #757575;
+
+        .header__email:hover &,
+        .header__email:focus & {
+            fill: #2196F3;
+        }
+    
+}
+
+.header__tel {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+
+        &:hover,
+        &:focus {
+            color: #2196F3;
+        }
+
+}
+.header__tel-icon {
+    margin-right: 10px;
+
+    fill: #757575;
+
+        .header__tel:hover &,
+        .header__tel:focus & {
+            fill: #2196F3;
+        }
+}

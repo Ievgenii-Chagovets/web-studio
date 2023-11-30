@@ -1,0 +1,45 @@
+.values__list {
+    display: flex;
+}
+.values__list-item {
+    display: inline-block;
+}
+
+.values__list-item+.values__list-item {
+    padding-left: 30px;
+}
+
+.values__list-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+
+    border-radius: 4px;
+    background: #F5F4FA;
+}
+
+
+.value__list-name {
+    margin-bottom: 10px;
+
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+.value__list-description {
+
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7em;
+    letter-spacing: 0.42px;
+}

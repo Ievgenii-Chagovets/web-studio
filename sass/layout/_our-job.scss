@@ -1,0 +1,92 @@
+.our-job {
+    padding-bottom: 94px;
+}
+.our-job__title {
+    margin-bottom: 50px;
+
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+
+.our-job__list {
+    display: flex;
+}
+
+.our-job__item {
+    position: relative;
+}
+
+.our-job__item + .our-job__item {
+    margin-left: 30px;
+}
+
+.job-1::before {
+    display: flex;
+    content: 'Десктопные приложения';
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    bottom: 1%;
+    position: absolute;
+
+    color: white;
+    background-color: #2F303ACC;
+    opacity: 80%;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+}
+
+
+.job-2::before {
+    display: flex;
+    content: 'Мобильные приложения';
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    bottom: 1%;
+    position: absolute;
+
+    color: white;
+    background-color: #2F303ACC;
+    opacity: 80%;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+}
+
+.job-3::before {
+    display: flex;
+    content: 'Дизайнерские решения';
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    bottom: 1%;
+    position: absolute;
+
+    color: white;
+    background-color: #2F303ACC;
+    opacity: 80%;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+}
+
